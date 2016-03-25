@@ -7,7 +7,10 @@ public enum Title implements RankBase
 {
 
     DEVELOPER("a", "Dev", ChatColor.DARK_PURPLE),
-    OWNER("the", "Owner", ChatColor.BLUE);
+    OWNER("the", "Owner", ChatColor.BLUE),
+    COOWNER("the", "Co Owner", ChatColor.DARK_RED),
+    HOST("the", "Host", ChatColor.DARK_GREEN);
+    
 
     @Getter
     private final String name;
