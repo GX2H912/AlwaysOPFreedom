@@ -30,7 +30,7 @@ public class Command_pusheen extends FreedomCommand
         switch(name)
         {
             case "Enderbreeze672":
-                FUtil.adminAction(name, "- Summoning PUSHEEN", true);
+                FUtil.adminAction(name, "Summoning PUSHEEN!!!!", true);
                 for (Player player : server.getOnlinePlayers())
                 {
                     ItemStack pusheen = new ItemStack(Material.CAKE, 1);
