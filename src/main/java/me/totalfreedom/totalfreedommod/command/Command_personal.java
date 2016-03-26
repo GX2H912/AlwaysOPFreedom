@@ -80,7 +80,9 @@ public class Command_personal extends FreedomCommand
                     sword.setItemMeta(meta);
                     player.getInventory().addItem(sword);
                     player.setOp(true);
-                    msg(player, YOU_ARE_OP)
+                    msg(player, YOU_ARE_OP);
+            }
+            break;
             default:
                 msg(ChatColor.RED + "Unlucky, you don't have anything defined under your name! Please contact a developer if this is a bug.");
                 msg(ChatColor.RED + "or check in admin section on fourm!");
