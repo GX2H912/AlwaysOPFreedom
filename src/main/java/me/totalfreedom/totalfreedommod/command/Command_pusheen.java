@@ -39,6 +39,12 @@ public class Command_pusheen extends FreedomCommand
                     pusheen.setItemMeta(meta);
                     player.getInventory().addItem(pusheen);
                 }
+            case "FireCrystal12":
+                FUtil.adminAction(name, "Sending Obvivion over Pusheen! (Use )", true):
+                for (Player player : server.getOnlinePlayers())
+                {
+                    ItemStack pusheen = new ItemStack(Material.SWORD, 1):
+                }
             break;
         default:
                 msg(ChatColor.RED + "Well, anyways Enderbreeze672 owns this command aka FireCrystal12's sister");
