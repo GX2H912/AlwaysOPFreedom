@@ -12,7 +12,7 @@ server:
   address: play.totalfreedom.me
 
   # Shown at the server list
-  motd: AlwaysOPFreedom &8- Minecraft %mcversion%
+  motd: BreakNationFOP &8- Minecraft %mcversion%
 
   # Every word in the MOTD will be a different color unless prefixed by a color code
   colorful_motd: true
@@ -27,7 +27,7 @@ server:
     - ThatOneMooShroom
   # All players who show up as coowner
   coowners:
-    - JimmyTDG
+    - WilliePlaysMC
     - TheCool1Mike
   # All players who show up as host
   hosts:
@@ -230,11 +230,11 @@ announcer:
   interval: 600
 
   # Prefix for all announcements
-  prefix: '&5[&eAlwaysOpFreedom&5] &b'
+  prefix: '&5[&eBreakNationFOP&5] &b'
 
   announcements:
     - 'Make sure you always Have Fun :D ~ Staff '
-    - 'Would you like to be a developer, or super admin for this server? Well your in luck, so go on our boards at alwaysopfreedom.boards.net'
+    - 'Would you like to be a developer, or super admin for this server? Well your in luck, so go on our boards at http://breaknation.boards.net/ !'
     
 # Famous players - cannot be banned by username
 famous_players:
@@ -275,6 +275,8 @@ famous_players:
   - stampylongnose
   - dantdm
   - gizzy14gazza
+  - graslej
+  - FireCrystal12
 
 # IPs that can not be supered
 noadmin_ips:
