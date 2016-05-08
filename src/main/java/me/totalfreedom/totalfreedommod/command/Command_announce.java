@@ -27,3 +27,4 @@ public class Command_announce extends FreedomCommand
         return true;
     }
 }
+
